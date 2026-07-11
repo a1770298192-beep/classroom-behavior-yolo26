@@ -1,0 +1,58 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local tool state
+Ultralytics/
+.yolo/
+tmp/
+
+# Datasets and training artifacts
+data/raw/
+data/interim/
+data/processed/
+models/**/*.pt
+models/**/*.onnx
+experiments/*/
+outputs/predictions/
+
+# Do not redistribute upstream classroom images or derived visual samples
+outputs/figures/
+outputs/report_assets/
+outputs/reports/baseline_error_analysis/
+report/figures/*.png
+report/figures/*.jpg
+
+# Final submissions and LaTeX build products
+output/
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.pdf
+report/*.synctex.gz
+report/*.xdv
+report/texput.log
+
+# Per-image/per-box derivatives of the upstream dataset
+docs/statistics/scbehavior_boxes.csv
+docs/statistics/scbehavior_images.csv
+
+# Keep directory placeholders
+!data/**/.gitkeep
+!experiments/.gitkeep
+!outputs/predictions/.gitkeep
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local credentials and secrets
+.env
+.env.*
+*.pem
+*.key

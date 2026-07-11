@@ -1,0 +1,94 @@
+{
+  "images": 400,
+  "boxes": 8083,
+  "boxes_per_image": {
+    "min": 1,
+    "median": 22.0,
+    "mean": 20.2075,
+    "max": 30
+  },
+  "size_counts_at_640": {
+    "medium": 6154,
+    "small": 1666,
+    "large": 263
+  },
+  "class_summary": [
+    {
+      "class_id": 0,
+      "name": "write",
+      "zh": "书写",
+      "boxes": 579,
+      "share": 0.07163181986886057,
+      "images_present": 81,
+      "small_share_at_640": 0.20898100172711573,
+      "median_width_at_640": 49.249919999999996,
+      "median_height_at_640": 34.750080000000004
+    },
+    {
+      "class_id": 1,
+      "name": "read",
+      "zh": "阅读",
+      "boxes": 1021,
+      "share": 0.12631448719534827,
+      "images_present": 249,
+      "small_share_at_640": 0.1665034280117532,
+      "median_width_at_640": 43.50016,
+      "median_height_at_640": 41.500080000000004
+    },
+    {
+      "class_id": 2,
+      "name": "lookup",
+      "zh": "抬头听讲",
+      "boxes": 4480,
+      "share": 0.5542496597797847,
+      "images_present": 345,
+      "small_share_at_640": 0.24754464285714287,
+      "median_width_at_640": 37.500159999999994,
+      "median_height_at_640": 42.83316
+    },
+    {
+      "class_id": 3,
+      "name": "turn_head",
+      "zh": "转头",
+      "boxes": 1011,
+      "share": 0.12507732277619696,
+      "images_present": 279,
+      "small_share_at_640": 0.1533135509396637,
+      "median_width_at_640": 42.99967999999999,
+      "median_height_at_640": 47.49984
+    },
+    {
+      "class_id": 4,
+      "name": "raise_hand",
+      "zh": "举手",
+      "boxes": 684,
+      "share": 0.08462204626994928,
+      "images_present": 147,
+      "small_share_at_640": 0.16228070175438597,
+      "median_width_at_640": 38.79168,
+      "median_height_at_640": 47.99988
+    },
+    {
+      "class_id": 5,
+      "name": "stand",
+      "zh": "站立",
+      "boxes": 66,
+      "share": 0.008165285166398615,
+      "images_present": 63,
+      "small_share_at_640": 0.0,
+      "median_width_at_640": 42.58336,
+      "median_height_at_640": 63.16668
+    },
+    {
+      "class_id": 6,
+      "name": "discuss",
+      "zh": "讨论",
+      "boxes": 242,
+      "share": 0.029939378943461586,
+      "images_present": 41,
+      "small_share_at_640": 0.0,
+      "median_width_at_640": 97.62496000000002,
+      "median_height_at_640": 55.125
+    }
+  ]
+}

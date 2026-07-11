@@ -1,0 +1,56 @@
+{
+  "seed": 42,
+  "clustering": {
+    "feature_extractor": "torchvision ResNet18 ImageNet1K_V1",
+    "metric": "cosine",
+    "linkage": "single",
+    "distance_threshold": 0.01,
+    "groups": 323,
+    "largest_group": 35
+  },
+  "optimization_trials": 50000,
+  "optimization_score": 0.012158534894745046,
+  "cross_split_pairs_at_or_below_threshold": 0,
+  "minimum_cross_split_cosine_distance": 0.010043501853942871,
+  "splits": [
+    {
+      "split": "train",
+      "images": 281,
+      "groups": 221,
+      "boxes": 5631,
+      "class_0": 379,
+      "class_1": 677,
+      "class_2": 3141,
+      "class_3": 723,
+      "class_4": 483,
+      "class_5": 48,
+      "class_6": 180
+    },
+    {
+      "split": "val",
+      "images": 59,
+      "groups": 50,
+      "boxes": 1178,
+      "class_0": 95,
+      "class_1": 179,
+      "class_2": 653,
+      "class_3": 126,
+      "class_4": 85,
+      "class_5": 9,
+      "class_6": 31
+    },
+    {
+      "split": "test",
+      "images": 60,
+      "groups": 52,
+      "boxes": 1274,
+      "class_0": 105,
+      "class_1": 165,
+      "class_2": 686,
+      "class_3": 162,
+      "class_4": 116,
+      "class_5": 9,
+      "class_6": 31
+    }
+  ]
+}

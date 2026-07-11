@@ -1,0 +1,20 @@
+# Core deep-learning stack. Install PyTorch from the official CUDA wheel index.
+torch==2.10.0
+torchvision==0.25.0
+ultralytics==8.4.91
+
+# Application and computer vision
+opencv-python==5.0.0.93
+streamlit==1.59.1
+pillow>=12.1,<13
+
+# Data analysis, metrics and visualisation
+numpy>=2.2,<3
+pandas==3.0.3
+matplotlib==3.11.0
+seaborn==0.13.2
+scikit-learn==1.9.0
+pyyaml==6.0.3
+tqdm==4.68.4
+tensorboard==2.21.0
+
