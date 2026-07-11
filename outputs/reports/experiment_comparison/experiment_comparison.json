@@ -1,0 +1,47 @@
+[
+  {
+    "experiment": "YOLO26n@640",
+    "imgsz": 640,
+    "parameters": 2376201,
+    "gflops": 5.2,
+    "weight_mb": 5.123906135559082,
+    "training_seconds": 278.45465087890625,
+    "peak_allocated_vram_gib": 2.6954894065856934,
+    "precision": 0.6943956826140492,
+    "recall": 0.7795808285184844,
+    "map50": 0.7710950597199192,
+    "map50_95": 0.5666616422543476,
+    "model_inference_ms": 6.314265999990312,
+    "end_to_end_ms": 30.080088000004253
+  },
+  {
+    "experiment": "YOLO26s@640",
+    "imgsz": 640,
+    "parameters": 9467889,
+    "gflops": 20.5,
+    "weight_mb": 19.358586311340332,
+    "training_seconds": 285.76119017601013,
+    "peak_allocated_vram_gib": 4.784857273101807,
+    "precision": 0.7373065940119055,
+    "recall": 0.7926009249649109,
+    "map50": 0.8220657623774714,
+    "map50_95": 0.6065428007070922,
+    "model_inference_ms": 6.963516000023446,
+    "end_to_end_ms": 29.73394599999665
+  },
+  {
+    "experiment": "YOLO26n@960",
+    "imgsz": 960,
+    "parameters": 2376201,
+    "gflops": 11.7,
+    "weight_mb": 5.162114143371582,
+    "training_seconds": 532.8319807052612,
+    "peak_allocated_vram_gib": 3.096278190612793,
+    "precision": 0.779843907223359,
+    "recall": 0.7669034300299867,
+    "map50": 0.8257384042571415,
+    "map50_95": 0.6083129599434405,
+    "model_inference_ms": 7.085763999994015,
+    "end_to_end_ms": 31.829515999997966
+  }
+]

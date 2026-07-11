@@ -1,0 +1,19 @@
+model: models/pretrained/yolo26n.pt
+data: data/processed/SCBehavior/data.yaml
+epochs: 100
+imgsz: 960
+batch: 8
+device: 0
+workers: 4
+seed: 42
+deterministic: true
+amp: true
+cache: false
+patience: 20
+optimizer: auto
+project: experiments
+name: experiment_yolo26n_960
+exist_ok: true
+plots: true
+verbose: true
+

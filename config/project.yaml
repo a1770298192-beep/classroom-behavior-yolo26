@@ -1,0 +1,20 @@
+project:
+  name: campus_classroom_behavior
+  title_zh: 基于YOLO的课堂学生行为识别与教学互动分析系统
+  seed: 42
+
+paths:
+  raw_data: data/raw
+  interim_data: data/interim
+  processed_data: data/processed
+  splits: data/splits
+  experiments: experiments
+  models: models
+  figures: outputs/figures
+  predictions: outputs/predictions
+
+privacy:
+  identify_students: false
+  store_face_identity: false
+  infer_learning_attitude: false
+

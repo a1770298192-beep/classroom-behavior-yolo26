@@ -1,0 +1,42 @@
+{
+  "root": "data\\raw\\SCBehavior",
+  "splits": {
+    "train": {
+      "images": 360,
+      "labels": 360,
+      "valid_boxes": 7250
+    },
+    "val": {
+      "images": 40,
+      "labels": 40,
+      "valid_boxes": 833
+    }
+  },
+  "class_counts": {
+    "0": 579,
+    "1": 1021,
+    "2": 4480,
+    "3": 1011,
+    "4": 684,
+    "5": 66,
+    "6": 242
+  },
+  "broken_images": [],
+  "invalid_labels": [],
+  "empty_labels": [],
+  "orphan_images": [],
+  "orphan_labels": [],
+  "auxiliary_label_files": [
+    "labels\\train\\classes.txt",
+    "labels\\train\\train2017.txt",
+    "labels\\val\\classes.txt",
+    "labels\\val\\train2017.txt"
+  ],
+  "exact_duplicate_groups": [],
+  "image_dimensions": {
+    "min_width": 2560,
+    "max_width": 3840,
+    "min_height": 1440,
+    "max_height": 2160
+  }
+}

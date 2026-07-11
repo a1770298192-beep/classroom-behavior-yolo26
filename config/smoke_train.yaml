@@ -1,0 +1,19 @@
+model: models/pretrained/yolo26n.pt
+data: data/processed/SCBehavior/data.yaml
+epochs: 3
+imgsz: 640
+batch: 8
+device: 0
+workers: 4
+seed: 42
+deterministic: true
+amp: true
+cache: false
+patience: 10
+optimizer: auto
+project: experiments
+name: smoke_yolo26n
+exist_ok: true
+plots: true
+verbose: true
+

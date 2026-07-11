@@ -1,0 +1,24 @@
+# Verified against upstream classes.txt and COCO categories at commit
+# df45aef5eae9d74f6d3f77646c08a8a5a358c7a2.
+classes:
+  - id: 0
+    name: write
+    zh: 书写
+  - id: 1
+    name: read
+    zh: 阅读
+  - id: 2
+    name: lookup
+    zh: 抬头听讲
+  - id: 3
+    name: turn_head
+    zh: 转头
+  - id: 4
+    name: raise_hand
+    zh: 举手
+  - id: 5
+    name: stand
+    zh: 站立
+  - id: 6
+    name: discuss
+    zh: 讨论
